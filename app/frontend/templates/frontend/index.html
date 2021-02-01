@@ -1,18 +1,15 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Django REST with React</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact List</title>
 </head>
-
 <body>
-    <div id="root">
-        <!-- React will load here -->
-    </div>
+  <div id="root"></div>
+  {% load static %}
+  <script src="{% static "frontend/main.js" %}"></script>
 </body>
-{% load static %}
-<script src="{% static " frontend/main.js" %}"></script>
-
 </html>
